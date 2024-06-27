@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Roboto Slab';
+}
+
+p {
+    font-size: 1rem; /* 1rem=16px */
+    line-height: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .main-container {
+        width: 90%;
+    }
+}
+
+.button {
+    padding: 1rem 1.5rem;
+    background: white;
+    border: solid 1.5px teal;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.button:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 5px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.nav ul {
+    display: flex;
+    gap: 3rem;
+}
+
+.logo{
+    align-items: center;
+    display: flex;
+    font-weight: 700;
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+
+.logo a {
+    color: teal;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li:hover {
+    color: teal;
+    border-bottom: 1px solid teal;
+}
+
+.burger div {
+    width: 25px;
+    height: 2px;
+    background-color: black;
+    margin: 7px;
+    transition: all .3s;
+    z-index: 99;
+}
+
+.burger {
+    z-index: 99;
+    position: fixed;
+    top: 33px;
+    right: 35px;
+    display: none;
+    align-items: center;
+}
+
+#hero {
+    display: grid;
+    height: 720px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.hero-name {
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0.5rem 0 1rem;
+    color: goldenrod;
+}
+
+.hero-name span {
+    color: rgb(148, 138, 102);
+}
+
+.hero-right {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-right img {
+    width: 90%;
+}
+
+.pre-title {
+    width: fit-content;
+    color: goldenrod;
+    text-transform: uppercase;
+    letter-spacing: 0.5 rem;
+    position: relative;
+    padding-left: 40px;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+
+/* style for service/skill */
+
+#first-service {
+    display: grid;
+    height: 10px;
+    grid-template-columns: 2fr 2fr;
+    align-items: center;
+    padding-right: 50%;
+    padding-left: 15%;
+    justify-content: center;
+    position: relative;
+}
+
+#last-service {
+    display: grid;
+    height: 10px;
+    grid-template-columns: 2fr 2fr;
+    align-items: center;
+    padding-left: 50%;
+    padding-right: 15%;
+    justify-content: center;
+    position: relative;
+}
+
+/* service1 */
+.web-design {
+    text-align: center;
+    margin: 20px 0 60px;
+    background-color: azure;
+    border: 10px solid teal;
+}
+
+.service-name-1 {
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 0.5rem 0 1rem;
+    color: goldenrod;
+}
+
+.service-name-1 span {
+    color: rgb(148, 138, 102);
+}
+
+/* service2 */
+.golang-microservices {
+    text-align: center;
+    margin: 20px 0 60px;
+    background-color: azure;
+    border: 10px solid teal;
+}
+
+.service-name-2 {
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 0.5rem 0 0.5rem;
+    color: goldenrod;
+}
+
+.service-name-2 span {
+    color: rgb(148, 138, 102);
+}
+
+/* service3 */
+.computer-vision {
+    text-align: center;
+    margin: 0 0 60px;
+    background-color: azure;
+    border: 10px solid teal;
+}
+
+.service-name-3 {
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 0.5rem 0 1rem;
+    color: goldenrod;
+}
+
+.service-name-3 span {
+    color: rgb(148, 138, 102);
+}
+
+/* service4 */
+.app-dev {
+    text-align: center;
+    margin: 20px 0 60px;
+    background-color: azure;
+    border: 10px solid teal;
+}
+
+.service-name-4 {
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 0.5rem 0 1rem;
+    color: goldenrod;
+}
+
+.service-name-4 span {
+    color: rgb(148, 138, 102);
+}
+
+/* certif */
+.certifications-title {
+    text-align: center;
+    padding: 1rem 0 3rem;
+    font-weight: 400;
+    color: goldenrod;
+}
