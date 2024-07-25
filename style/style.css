@@ -233,7 +233,25 @@ nav ul li:hover {
 /* certif */
 .certifications-title {
     text-align: center;
-    padding: 1rem 0 3rem;
+    padding-bottom: 1rem;
+    color: teal;
+}
+
+.certificate {
+    text-align: center;
+    padding: 1rem 9rem 2rem;
     font-weight: 400;
+}
+
+.certificate-title {
     color: goldenrod;
+}
+
+.certificate-organizer {
+    color: rgb(148, 138, 102);
+}
+
+.golang-certificate {
+    text-align: center;
+    padding: 0 9rem 3rem;
 }
