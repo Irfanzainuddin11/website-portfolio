@@ -241,6 +241,7 @@ nav ul li:hover {
     text-align: center;
     padding: 1rem 9rem 2rem;
     font-weight: 400;
+    margin: 0 7rem 0;
 }
 
 .certificate-title {
@@ -254,4 +255,9 @@ nav ul li:hover {
 .golang-certificate {
     text-align: center;
     padding: 0 9rem 3rem;
+}
+
+.certificate-image {
+    width: 16rem;
+    height: 12rem;
 }
