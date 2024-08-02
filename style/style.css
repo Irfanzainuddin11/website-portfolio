@@ -132,93 +132,22 @@ nav ul li:hover {
 
 /* style for service/skill */
 
-#first-service {
-    display: grid;
-    height: 10px;
-    grid-template-columns: 2fr 2fr;
-    align-items: center;
-    padding-right: 50%;
-    padding-left: 15%;
-    justify-content: center;
-    position: relative;
-}
-
-#last-service {
-    display: grid;
-    height: 10px;
-    grid-template-columns: 2fr 2fr;
-    align-items: center;
-    padding-left: 50%;
-    padding-right: 15%;
-    justify-content: center;
-    position: relative;
-}
-
-/* service1 */
-.web-design {
+.service {
     text-align: center;
-    margin: 20px 0 60px;
-    background-color: azure;
-    border: 10px solid teal;
 }
 
-.service-name-1 {
-    font-weight: 400;
-    font-size: 2rem;
-    margin: 0.5rem 0 1rem;
-    color: goldenrod;
-}
-
-.service-name-1 span {
-    color: rgb(148, 138, 102);
-}
-
-/* service2 */
-.golang-microservices {
-    text-align: center;
-    margin: 20px 0 60px;
-    background-color: azure;
-    border: 10px solid teal;
-}
-
-.service-name-2 {
-    font-weight: 400;
-    font-size: 2rem;
-    margin: 0.5rem 0 0.5rem;
-    color: goldenrod;
-}
-
-.service-name-2 span {
-    color: rgb(148, 138, 102);
-}
-
-/* service3 */
-.computer-vision {
-    text-align: center;
-    margin: 0 0 60px;
-    background-color: azure;
-    border: 10px solid teal;
-}
-
-.service-name-3 {
-    font-weight: 400;
-    font-size: 2rem;
-    margin: 0.5rem 0 1rem;
-    color: goldenrod;
-}
-
-.service-name-3 span {
-    color: rgb(148, 138, 102);
-}
-
-/* service4 */
+/* service */
+.web-design,
+.golang-microservices,
+.computer-vision,
 .app-dev {
     text-align: center;
-    margin: 20px 0 60px;
-    background-color: azure;
-    border: 10px solid teal;
+    margin: 0 1rem 1.5rem;
 }
 
+.service-name-1,
+.service-name-2,
+.service-name-3,
 .service-name-4 {
     font-weight: 400;
     font-size: 2rem;
@@ -226,17 +155,14 @@ nav ul li:hover {
     color: goldenrod;
 }
 
+.service-name-1 span,
+.service-name-2 span,
+.service-name-3 span,
 .service-name-4 span {
     color: rgb(148, 138, 102);
 }
 
 /* certif */
-.certifications-title {
-    text-align: center;
-    padding-bottom: 1rem;
-    color: teal;
-}
-
 .certificate {
     text-align: center;
     padding: 1rem 9rem 2rem;
