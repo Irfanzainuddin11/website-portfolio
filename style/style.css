@@ -190,8 +190,6 @@ nav ul li:hover {
 
 /* footer */
 footer {
-    background-color: #333;
-    color: teal;
     padding: 20px 0;
     text-align: center;
 }
@@ -232,7 +230,6 @@ footer {
 .footer-social .social-icon {
     display: inline-block;
     margin: 5px;
-    color: teal;
     text-decoration: none;
     font-weight: bold;
 }
