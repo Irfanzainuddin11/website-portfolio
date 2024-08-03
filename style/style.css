@@ -105,7 +105,8 @@ nav ul li:hover {
     color: goldenrod;
 }
 
-.hero-name span {
+.hero-name span,
+.project-title span {
     color: rgb(148, 138, 102);
 }
 
@@ -247,4 +248,18 @@ footer {
 .footer-bottom p {
     margin: 0;
     font-size: 14px;
+}
+
+/* project */
+#golang,
+#pose-estimation,
+#web-portfolio {
+    padding: 1.25rem;
+    margin: 1.25rem 5.5rem 0;
+    border-radius: 5px;
+    height: 13rem;
+}
+
+.project-title {
+    color: goldenrod;
 }
